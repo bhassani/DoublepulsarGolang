@@ -7,7 +7,7 @@ Repository for DoublePulsar DLL and Doublepulsar Shellcode uploader programs<br 
 - DoublePulsar Upload Shellcode - completed and working, inject your shellcode into any process you desire<br />
 - DoublePulsar Upload DLL - completed and working, inject a DLL into lsass.exe<br />
 
-## Project accomplishments
+## Project goals and future updates
 - DoublePulsar Upload Shellcode -  Request user input for IP address, the process to inject into and shellcode to read from a file and combine it with the run kernel shellcode that is already in the program, allowing you to supply your own custom shellcode such as metasploit reverse shell, pop notepad, pop calc or add user.  Will implement the SMB packet as a structure and not hexadecimal for clarity.<br />
 - DoublePulsar Upload DLL - Request user input for IP address, the DLL to upload and DLL ordinal to call.  Will implement the SMB packet as a structure and not hexadecimal for clarity.<br />
 
