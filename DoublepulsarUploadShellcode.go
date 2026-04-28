@@ -477,8 +477,8 @@ func main() {
 			fmt.Printf("Total size of shellcode: %d\n", payloadShellcodeSize)
 
 			// -------------------- BEFORE PADDING --------------------
-
-			fmt.Printf("Total size of shellcode before padding: %d\n", payloadShellcodeSize)
+			BeforePadding := shellcodeOnePartLen + shellcodePartTwoLen + 4 + 2 + ring3Len
+			fmt.Printf("Total size of shellcode before padding: %d\n", BeforePadding)
 
 			// -------------------- PADDING --------------------
 
